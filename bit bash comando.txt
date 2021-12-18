@@ -1,0 +1,26 @@
+CRIANDO UM REPOSITORIO
+
+1 - Cria uma pasta no drive
+2 - dentro da pasta clica com botão direito e abre o git bash
+3 - 
+
+PARA ENVIAR ARQUIVO PARA O REPOSITORIO ONLINE
+
+após dá o commit.....
+
+1 - git branch -M main
+2 - git remote add origin https://github.com/leorocha2021/logicaprograma-o.git
+3 - git push -u origin main 
+
+
+
+
+git init : inicializa um repositório local git
+status git : verifica o estado dos seus arquivos
+git add <nomeDoArquivo> : envia seu arquivo especificado para o Palco
+git add - -all : envia todos os arquivos para o Stage
+git commit -m “tituloDoCommit: envia o que está no Estágio para o HEAD
+git remote add origin urlDoRepositorio: adiciona e indica uma URL do repositório remoto em que os arquivos serão coletados
+git push origin master: envia os arquivos para o repositório remoto que você especificou através da URL do comando acima
+git checkout -b <nomeDaBranch>: cria uma nova branch
+git checkout <nomeDaBranch>: alterna para um ramo capaz
